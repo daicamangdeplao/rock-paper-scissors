@@ -4,7 +4,7 @@ A hand game, rock–paper–scissors, is implemented in term of a Java-based pro
 # Prerequisite
 This application is a Java-based application, and `jdk-8u191` is needed to be installed before executing the source code.
 
-To execute the app, just so following steps
+To execute the app, just follow these steps
 - Download zip file from this [link](https://github.com/trdngy/toy-project-3.git)
 - Import Maven project in Eclipse
 - Run as Java application
