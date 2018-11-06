@@ -1,8 +1,13 @@
 # Introduction
-A hand game, Rock–paper–scissors, is implemented in term of a Java-based program. This app mimics the way that two players try to beat each other by posing the hand-shapes represented rock, paper, and scissors. The rules is described in this [link](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors).
+A hand game, rock–paper–scissors, is implemented in term of a Java-based program. This app mimics the way that two players try to beat each other by posing the hand-shapes represented rock, paper, and scissors. The rules is described in this [link](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors).
 
 # Prerequisite
 This application is a Java-based application, and `jdk-8u191` is needed to be installed before executing the source code.
+
+To execute the app, just so following steps
+- Download zip file from this [link](https://github.com/trdngy/toy-project-3.git)
+- Import Maven project in Eclipse
+- Run as Java application
 
 # Concept
 There are two classes: `Player` and `Action`. The class of `Player` has a relationship of dependency on the class of `Action`. The following UML depicts the attributes, methods, and relationships between `Player` and `Action`.
