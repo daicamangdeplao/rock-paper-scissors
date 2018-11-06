@@ -1,5 +1,5 @@
 # Introduction
-A hand game, rock–paper–scissors, is implemented in term of a Java-based program. This app mimics the way that two players try to beat each other by posing the hand-shapes represented rock, paper, and scissors. The rules is described in this [link](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors).
+A hand game, rock–paper–scissors, is implemented in term of a Java-based program. This app mimics the way that two players try to beat each other by posing the hand-shapes represented rock, paper, and scissors. The rules are described in this [link](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors).
 
 # Prerequisite
 This application is a Java-based application, and `jdk-8u191` is needed to be installed before executing the source code.
