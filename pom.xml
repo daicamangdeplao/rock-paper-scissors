@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.luv2code</groupId>
-	<artifactId>lab</artifactId>
+	<artifactId>toy-project-3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lab</name>
+	<name>toy-project-3</name>
 	<url>http://maven.apache.org</url>
 
 
@@ -98,7 +98,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>toy-project2</finalName>
+		<finalName>toy-project-3</finalName>
 		<!-- <pluginManagement> -->
 		<plugins>
 			<plugin>
