@@ -14,10 +14,10 @@ public class App {
 	final static String[] actions = { "Paper", "Rock", "Scissors" };
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to the game Rock–Paper–Scissors");
+		System.out.println("Welcome to the game Rockâ€“Paperâ€“Scissors");
 
-		Player playerA = new Player("John", 0, 0, 0);
-		Player playerB = new Player("Dave", 0, 0, 0);
+		Player playerA = new Player("A", 0, 0, 0);
+		Player playerB = new Player("B", 0, 0, 0);
 
 		Action actionA = new Action();
 		Action actionB = new Action();
@@ -29,6 +29,7 @@ public class App {
 			actionA = playerA.performAction();
 			System.out.println(playerA.getName() + " plays " + actions[actionA.getType() - 1]);
 			actionB = playerB.performAction();
+			actionB.setType(1);
 			System.out.println(playerB.getName() + " plays " + actions[actionB.getType() - 1]);
 
 			// How different two actions is
