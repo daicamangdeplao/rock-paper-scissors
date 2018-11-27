@@ -58,7 +58,7 @@ public class Player {
 	public Action performAction() {
 
 		// Return a random integer number from 1 - 3
-		int type = ThreadLocalRandom.current().nextInt(1, 4);
+		int type = ThreadLocalRandom.current().nextInt(1, 5);
 
 		// Create a corresponding action for the random number
 		Action action = new Action(type);
